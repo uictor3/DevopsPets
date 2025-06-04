@@ -3,6 +3,8 @@
 ```bash
 git clone https://github.com/uictor3/devopsPets.git
 cd devopsPets
+cd cadastroPet-back
+cd infra
 ```
 
 ### 2. Suba a aplicação com Docker Compose
