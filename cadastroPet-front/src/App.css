@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f2f6f9;
+  color: #333;
+}
+
+/* Container principal */
+.cadastroPet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  min-height: 100vh;
+}
+
+/* Formulário de cadastro */
+.cadastro {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+
+.cadastro h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 1.5rem;
+}
+
+/* Campos */
+.campos {
+  margin-bottom: 1.2rem;
+}
+
+.campos p {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #4e91fc;
+  outline: none;
+}
+
+/* Botão de cadastrar */
+.primeiroBotao {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #4e91fc;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.primeiroBotao:hover {
+  background-color: #397be6;
+}
+
+/* Lista dos pets */
+.listaDosPets {
+  background: #fff;
+  width: 100%;
+  max-width: 600px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.petInfo {
+  margin-bottom: 1.2rem;
+}
+
+.petInfo p {
+  margin: 0.3rem 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 1rem 0;
+}
+
+/* Exibição de dados adicionais */
+.cadastroPet > p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Botão de deletar (genérico por enquanto) */
+.cadastroPet > button:last-of-type {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cadastroPet > button:last-of-type:hover {
+  background-color: #e03b3b;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .cadastro,
+  .listaDosPets {
+    width: 95%;
+    padding: 1rem;
+  }
+}
