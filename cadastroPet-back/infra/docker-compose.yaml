@@ -50,7 +50,7 @@ services:
   devops-app_front:
     image: devops-app:latest
     build:
-      context: ../cadastroPet
+      context: ../../cadastroPet-front
       dockerfile: Dockerfile
     environment:
       NODE_ENV: production
