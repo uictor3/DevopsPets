@@ -37,11 +37,10 @@ O **cadastroPet** é um sistema web voltado para o cadastro e gerenciamento de p
 ## ⚙️ Processo de Desenvolvimento
 
 1. Planejamento das funcionalidades: cadastro, listagem, edição e exclusão de pets
-2. Desenvolvimento da API REST em .NET
-3. Criação do frontend com React e integração com a API
-4. Dockerização dos serviços (backend, frontend, banco de dados)
-5. Testes manuais e ajustes
-6. Entrega da aplicação e documentação
+2. Criação do frontend com React e integração com a API
+3. Dockerização dos serviços (backend, frontend, banco de dados)
+4. Testes manuais e ajustes
+5. Entrega da aplicação e documentação
 
 ---
 
@@ -56,7 +55,6 @@ O **cadastroPet** é um sistema web voltado para o cadastro e gerenciamento de p
 
 ## 📚 Lições Aprendidas
 
-- Integração entre React e .NET
 - Estruturação e execução de projetos com Kanban manual
 - Criação de ambientes padronizados com Docker
 
