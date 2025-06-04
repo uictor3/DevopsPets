@@ -13,12 +13,11 @@ O **cadastroPet** é um sistema web voltado para o cadastro e gerenciamento de p
 - Estilização com CSS
 - Gerenciador de pacotes: `npm`
 
-### Backend
-- **.NET** (C#)
-
-### Banco de Dados
+### Backend e Banco de Dados
+- **.NET(C#)**
 - **PostgreSQL**
 - Interface gráfica: **pgAdmin 4**
+
 
 ---
 
