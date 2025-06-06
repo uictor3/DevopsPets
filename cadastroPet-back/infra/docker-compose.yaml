@@ -60,4 +60,4 @@ services:
       - petconsult-network
 
 volumes:
-  postgres
+  postgres:
